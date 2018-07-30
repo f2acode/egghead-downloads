@@ -1,0 +1,23 @@
+{
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "WebDriverIO": {
+      "url": "https://egghead.io/",
+      "browser": "chrome",
+      "desiredCapabilities": {
+        "chromeOptions": {
+          "args": [
+            "user-data-dir=C:/Users/augus/AppData/Local/Google/Chrome/User Data"
+          ]
+        }
+      },
+      "restart": false
+    }
+  },
+  "include": {},
+  "bootstrap": false,
+  "mocha": {},
+  "name": "egghead-auto-down"
+}
